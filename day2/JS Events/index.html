@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+
+  <p id="demo"></p>
+
+  <body>
+    <button type="button" onclick="document.getElementById('demo').innerHTML = Date()">Click</button>
+    <button type="button" onclick="this.innerHTML = Date()">Time</button>
+    <button type="button" onclick="getDate()">function</button>
+    <button type="button" onmouseout="getDate()">onmouseout</button>
+    <button type="button" onmousemove=""="getDate()">onmousemove</button>
+    <button type="button" onkeydown=""="getDate()">onkeydown</button>
+
+
+  <script>
+    function getDate(){
+      document.getElementById('demo').innerHTML = Date();
+    }
+  </script>
+  </body>
+</html>

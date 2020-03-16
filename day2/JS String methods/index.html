@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style/style.css">
+  </head>
+  <body>
+    <input type="text" id="cal">
+<li>
+  <lu>
+    <p id="myP" onmousedown="colorButton()">
+    <button id="fisrt" type="button" onclick="document.getElementById('cal').value += 1">1</button>
+    <button id="second" type="button" onclick="document.getElementById('cal').value += 2">2</button>
+    <button id="third" type="button" onclick="document.getElementById('cal').value += 3">3</button>
+    <button id="plus" type="button" onclick="document.getElementById('cal').value += '+'">+</button>
+    </p>
+  </lu>
+</li>
+<li>
+  <lu>
+    <button type="button" onclick="document.getElementById('cal').value += 4">4</button>
+    <button type="button" onclick="document.getElementById('cal').value += 5">5</button>
+    <button type="button" onclick="document.getElementById('cal').value += 6">6</button>
+    <button type="button" onclick="document.getElementById('cal').value += '-'">-</button>
+  </lu>
+</li>
+<li>
+  <lu>
+    <button type="button" onclick="document.getElementById('cal').value += 7">7</button>
+    <button type="button" onclick="document.getElementById('cal').value += 8">8</button>
+    <button type="button" onclick="document.getElementById('cal').value += 9">9</button>
+    <button type="button" onclick="document.getElementById('cal').value += '*'">*</button>
+  </lu>
+</li>
+<li>
+  <lu>
+    <button type="button" onclick="document.getElementById('cal').value += 0">0</button>
+    <button type="button" onclick="document.getElementById('cal').value = 0">C</button>
+    <button type="button" onclick="document.getElementById('cal').value = calculat()">=</button>
+    <button type="button" onclick="document.getElementById('cal').value += '/'">/</button>
+  </lu>
+</li>
+
+    <script src="js/strings methods.js"></script>
+    <script src="js/method.js"></script>
+    <script src="js/color.js"></script>
+  </body>
+</html>
+
+
